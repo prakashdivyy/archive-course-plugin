@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SCELE CSUI Archive Courses",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://scele.cs.ui.ac.id/"
+      ],
+      "js": [
+        "jquery-3.1.1.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "LogoCSUI.png"
+  }
+}
